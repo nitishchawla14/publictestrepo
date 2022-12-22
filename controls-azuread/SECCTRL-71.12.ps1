@@ -60,7 +60,6 @@ function Invoke-Control {
                 Add-Report $complianceStatus
                 continue
             }
-
             $flag = $false
             foreach ($storageClass in $storageClasses.items) {
                 $parameters = $storageClass.parameters
